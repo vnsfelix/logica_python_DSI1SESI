@@ -30,3 +30,32 @@ print("Valor:", numero_inteiro)
 print("Tipo:", type(numero_inteiro))
 
 print("-----------------------------")
+# EXEMPLO 2 - NUMERO COM CASA DECIMAL
+
+# criamos uma variavel chamada numero_decimal
+numero_decimal = 3.14
+# mostramos o valor
+print("Valor:", numero_decimal)
+# mostramos o tipo
+print("Tipo:", type(numero_decimal))
+
+print("-----------------------------")
+
+# EXEMPLO 3 - NUMERO COMPLEXO
+# criamos uma variavel chamada numero_complexo
+# Parte real (2) + parte imaginaria (3j)
+
+#estrutura geral:
+# numero = a + bj
+
+# a = parte real
+# b = parte imaginaria
+# c = unidade imaginaria
+numero_complexo = 2 + 3j
+
+# mostramos o valor
+print("Valor:", numero_complexo)
+# mostramos o tipo
+print("Tipo:", type(numero_complexo))
+
+print("-----------------------------")
