@@ -105,7 +105,7 @@ print("índice 1 até o índice 4:", st[1:4])
 # Mostre os caracteres do início até o índice 3
 # da string "software".
 
-print("inicio até o índice 3:", st[0:3])
+print("inicio até o índice 3:", st[:3])
 
 # EX13
 # Mostre os caracteres do índice 2 até o final
@@ -123,9 +123,15 @@ print ("Tamanho", len(st))
 # Acesse o último caractere de "software"
 # usando índice positivo (sem usar -1).
 
+print("Ultimo caractere:", st[7])
+
 # EX16
 # Mostre os caracteres que estão nos índices pares
 # da string "software".
 
+print("Pares:", st[::2])
+
 # EX17
 # Inverta a string "software".
+
+print("Invertido:", st[::-1])
